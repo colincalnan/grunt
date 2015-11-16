@@ -1,0 +1,9 @@
+.myImage {
+    background: url(../img/image.jpg);
+}
+
+@media screen and (max-width: 321px) {
+    .myImage {
+        background: url(../img/image-320.jpg);
+    }
+}
