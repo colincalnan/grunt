@@ -15,6 +15,6 @@ module.exports = function(grunt) {
   // Load configuration
   grunt.task.loadTasks('tasks');
 
-  grunt.registerTask('default', ['concurrent:assets']);
   grunt.registerTask('test', ['jshint']);
+  grunt.registerTask('default', ['concurrent:assets', 'watch']);
 }
